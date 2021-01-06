@@ -13,7 +13,8 @@ function startCounter() {
     if(number < 1 || number > 99999) {
         alert("Range out of bounds");
         clearInterval(countInterval);
-        return;
+        return; 
+        // This will give you an alert when you give the number out of 5 digits
     }
     
     var currentNos = document.querySelectorAll(".counter .current");
